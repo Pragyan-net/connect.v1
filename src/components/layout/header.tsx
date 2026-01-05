@@ -9,7 +9,7 @@ export function Header() {
   ];
 
   return (
-    <header className="absolute top-4 z-50 flex w-full justify-center">
+    <header className="fixed top-4 z-50 flex w-full justify-center">
       <nav className="rounded-full bg-card/80 px-4 py-2 backdrop-blur-sm">
         <ul className="flex items-center gap-4">
           {navItems.map((item) => (
