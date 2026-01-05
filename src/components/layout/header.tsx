@@ -4,8 +4,6 @@ export function Header() {
   const navItems = [
     { name: "Origin", href: "#origin" },
     { name: "Contact", href: "#contact" },
-    { name: "Events", href: "#events" },
-    { name: "Projects", href: "#projects" },
   ];
 
   return (
