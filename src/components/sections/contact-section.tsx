@@ -12,7 +12,7 @@ const contactLinks = [
   {
     name: "Discord",
     href: "https://discord.com",
-    icon: <DiscordIcon className="size-8" />,
+    icon: <DiscordIcon className="size-8 text-foreground group-hover:text-[#7289DA]" />,
   },
   {
     name: "GitHub",
@@ -44,7 +44,7 @@ export function ContactSection() {
             >
               <Card className="h-full transform-gpu bg-card text-card-foreground transition-transform duration-300 ease-in-out group-hover:-translate-y-2 group-hover:shadow-2xl">
                 <CardContent className="flex flex-col items-center justify-center gap-4 p-6 text-center">
-                  <div className="text-foreground">
+                  <div className="text-foreground transition-colors group-hover:text-primary">
                     {link.icon}
                   </div>
                   <p className="font-headline text-lg font-medium">
