@@ -6,8 +6,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export default function Home() {
   return (
     <>
-      <Header />
-      <HeroSection />
+      <HeroSection>
+        <Header />
+      </HeroSection>
       <main className="relative z-10 bg-background">
         <div id="origin" className="py-20 md:py-32">
           <div className="container mx-auto px-4">
