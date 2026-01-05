@@ -42,9 +42,9 @@ export function ContactSection() {
               rel="noopener noreferrer"
               className="group"
             >
-              <Card className="h-full transform-gpu bg-card text-card-foreground transition-transform duration-300 ease-in-out group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-primary/20">
+              <Card className="h-full transform-gpu bg-card text-card-foreground transition-transform duration-300 ease-in-out group-hover:-translate-y-2 group-hover:shadow-2xl">
                 <CardContent className="flex flex-col items-center justify-center gap-4 p-6 text-center">
-                  <div className="text-primary transition-colors duration-300 ease-in-out group-hover:text-accent">
+                  <div className="text-foreground">
                     {link.icon}
                   </div>
                   <p className="font-headline text-lg font-medium">

@@ -17,7 +17,7 @@ export default function Home() {
             </h2>
             <Card className="max-w-3xl mx-auto bg-card text-card-foreground shadow-lg">
               <CardHeader>
-                <CardTitle className="font-headline text-primary">
+                <CardTitle className="font-headline font-bold text-foreground">
                   Our Mission
                 </CardTitle>
               </CardHeader>
