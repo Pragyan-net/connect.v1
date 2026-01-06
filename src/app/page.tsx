@@ -15,7 +15,7 @@ export default function Home() {
             <h2 className="mb-12 text-center font-headline text-4xl font-bold text-foreground md:text-5xl">
               Origin
             </h2>
-            <Card className="max-w-3xl mx-auto bg-card text-card-foreground shadow-lg">
+            <Card className="mx-auto max-w-3xl transform-gpu bg-card/30 text-card-foreground shadow-lg backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="font-headline font-bold text-foreground">
                   Our Mission
