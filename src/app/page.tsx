@@ -18,15 +18,12 @@ export default function Home() {
             <Card className="mx-auto max-w-3xl transform-gpu bg-card/30 text-card-foreground shadow-lg backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="font-headline font-bold text-foreground">
-                  Our Mission
+                  Connect with us
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-card-foreground/80">
-                  A placeholder for the origin story of The Initiative.V1. This
-                  section will detail our purpose, goals, and the vision that
-                  drives us forward. We believe in the power of connection and
-                  collaboration to build the future.
+                 Join us on the ventures as we revloutnize th tech industry with open sourced tech that leads the world and beyond
                 </p>
               </CardContent>
             </Card>

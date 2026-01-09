@@ -5,23 +5,23 @@ import { DiscordIcon } from "../icons/discord-icon";
 
 const contactLinks = [
   {
-    name: "Instagram",
-    href: "https://instagram.com",
+    name: "Instagram: Initiative.V1",
+    href: "https://www.instagram.com/initiative.v1/",
     icon: <Instagram className="size-8" />,
   },
   {
-    name: "Discord",
-    href: "https://discord.com",
+    name: "Discord: Initiative.V1",
+    href: "https://discord.com/invite/dSv4AJJy?utm_source=Discord%20Widget&utm_medium=Connect",
     icon: <DiscordIcon className="size-8" />,
   },
   {
-    name: "GitHub",
-    href: "https://github.com",
+    name: "GitHub: V1INTIATIVE",
+    href: "https://github.com/V1INTIATIVE",
     icon: <Github className="size-8" />,
   },
   {
-    name: "Email",
-    href: "mailto:hello@initiative.v1",
+    name: "Email: publix.v1@yahoo.com ",
+    href: "mailto:publix.v1@yahoo.com ",
     icon: <Mail className="size-8" />,
   },
 ];
