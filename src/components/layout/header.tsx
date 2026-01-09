@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Header() {
   const navItems = [
-    { name: "Origin", href: "https://initative-v1.vercel.app" },
+    { name: "Origin", href: "https://initiative-v1.vercel.app/" },
     { name: "Contact", href: "https://connectv1-three.vercel.app/" },
     { name: "Events", href: "https://eventportal-v1.vercel.app/" },
     { name: "Projects", href: "https://projects-v1.vercel.app/" },
